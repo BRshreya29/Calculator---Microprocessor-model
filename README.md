@@ -26,7 +26,7 @@ The main goal of this project was to create a basic microprocessor that can hand
 
 Here’s the schematic diagram of my microprocessor design:
 
-![Schematic Diagram](images/schematic.png)
+![Schematic Diagram](https://github.com/BRshreya29/Calculator---Microprocessor-model/blob/main/images/schematic.png)
 
 *Figure 1: Schematic Diagram of the 16-Bit Calculator Microprocessor*
 
@@ -34,7 +34,7 @@ Here’s the schematic diagram of my microprocessor design:
 
 Below is the simulation output showing how the microprocessor performs different operations:
 
-![Simulation Output](images/simulation.png)
+![Simulation Output](https://github.com/BRshreya29/Calculator---Microprocessor-model/blob/main/images/simulation.png)
 
 *Figure 2: Simulation Output of the 16-Bit Calculator Microprocessor*
 
@@ -52,15 +52,12 @@ To get started with this project, you’ll need Xilinx Vivado. Here’s how you 
    - `Register_File.v`
    - `Microprocessor.v`
 
-3. **Add Constraints** (if needed):
-   Add any constraints required for your hardware setup, such as pin mappings.
-
-4. **Compile the Design**:
+3. **Compile the Design**:
    Run synthesis and implementation:
    - Go to the "Flow Navigator" and select "Run Synthesis".
    - After synthesis, select "Run Implementation".
 
-5. **Run the Simulation**:
+4. **Run the Simulation**:
    Add the test bench file (`Testbench.v`) and run the simulation:
    - Go to the "Flow Navigator" and select "Run Simulation".
    - Choose "Run Behavioral Simulation" to view the results.
@@ -71,4 +68,4 @@ With the simulation running, you can view the results of various operations in t
 
 ## Conclusion
 
-Working on the **16-Bit Calculator Microprocessor** was a rewarding experience. It allowed me to gain a deeper understanding of microprocessor design and operations. By creating a hardware implementation of a calculator, I was able to see firsthand how microprocessors perform tasks and how various components interact. This project was a valuable learning opportunity and helped me connect theoretical knowledge with practical hardware design.
+Working on the **16-Bit Calculator Microprocessor** allowed me to gain a deeper understanding of microprocessor design and operations. By creating a hardware implementation of a calculator, I was able to see firsthand how microprocessors perform tasks and how various components interact. This project was a valuable learning opportunity and helped me connect theoretical knowledge with practical hardware design.
